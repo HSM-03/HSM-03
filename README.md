@@ -3,6 +3,8 @@
 
 ----
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HSM-03&layout=compact&langs_count=8&theme=github_dark&hide_border=true)
 <!--
 **HSM-03/HSM-03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
