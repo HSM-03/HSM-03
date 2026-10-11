@@ -1,4 +1,4 @@
-### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi, I'm 한승민
+### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi, welcome to my profile!
 <a href="mailto:hansm031210@gmail.com" target="_blank"><img src="https://img.shields.io/badge/hansm031210@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/>
 
 ----
