@@ -5,7 +5,7 @@
 ### 📈 Recent Activity
 ![](./profile-3d-contrib/profile-night-rainbow.svg)
 
-### 🛠 Tech Stack
+---
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HSM-03&layout=compact&langs_count=8&hide=html,css&size_weight=0.5&count_weight=0.5&theme=github_dark&hide_border=true)
 <!--
 **HSM-03/HSM-03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
