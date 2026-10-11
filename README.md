@@ -1,6 +1,6 @@
 ### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> Hi, welcome to my profile!
 <a href="mailto:hansm031210@gmail.com" target="_blank"><img src="https://img.shields.io/badge/hansm031210@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/>
-<a href="mailto:han_seungmin1210@naver.com" target="_blank"><img src="https://img.shields.io/badge/han_seungmin1210@naver.com-EA4335?style=flat-square&logo=Naver&logoColor=white"/>
+<a href="mailto:han_seungmin1210@naver.com" target="_blank"><img src="https://img.shields.io/badge/han_seungmin1210@naver.com-03C75A?style=flat-square&logo=naver&logoColor=white"/></a>
 
 ----
 ### 📈 Recent Activity
