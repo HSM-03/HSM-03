@@ -19,12 +19,11 @@ jobs:
         with:
           node-version: 24
 
-      - name: Build patched 3d-contrib
+      - name: Patch 3d-contrib
         run: |
           git clone --depth 1 --branch latest https://github.com/yoshi389111/github-profile-3d-contrib.git "$RUNNER_TEMP/_3d"
-          sed -i 's/contributesLanguage.slice(0, 5)/contributesLanguage.slice(0, 7)/' "$RUNNER_TEMP/_3d/src/create-pie-language.ts"
-          grep -n "slice(0, 7)" "$RUNNER_TEMP/_3d/src/create-pie-language.ts"
-          cd "$RUNNER_TEMP/_3d" && npm ci && npm run build
+          sed -i 's/contributesLanguage.slice(0, 5)/contributesLanguage.slice(0, 7)/' "$RUNNER_TEMP/_3d/dist/index.js"
+          grep -n "contributesLanguage.slice(0, 7)" "$RUNNER_TEMP/_3d/dist/index.js"
 
       - name: Generate 3D contrib
         run: node "$RUNNER_TEMP/_3d/dist/index.js"
