@@ -14,10 +14,24 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v5
-      - uses: yoshi389111/github-profile-3d-contrib@latest
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Build patched 3d-contrib
+        run: |
+          git clone --depth 1 --branch latest https://github.com/yoshi389111/github-profile-3d-contrib.git "$RUNNER_TEMP/_3d"
+          sed -i 's/contributesLanguage.slice(0, 5)/contributesLanguage.slice(0, 7)/' "$RUNNER_TEMP/_3d/src/create-pie-language.ts"
+          grep -n "slice(0, 7)" "$RUNNER_TEMP/_3d/src/create-pie-language.ts"
+          cd "$RUNNER_TEMP/_3d" && npm ci && npm run build
+
+      - name: Generate 3D contrib
+        run: node "$RUNNER_TEMP/_3d/dist/index.js"
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
